@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/logintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/righteous"
+        android:text="Login"
+        android:textColor="#000000"
+        android:gravity="left"
+        android:textSize="40sp" />
+
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/enter_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logintext"
+        android:text="Enter your E-mail ID"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/edittext_email"
+        android:layout_below="@+id/enter_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Example: someone@gmail.com"
+        android:textSize="20sp"
+         />
+
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/enter_pw"
+        android:layout_below="@+id/edittext_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your password"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="365dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext_pw"
+        android:layout_below="@+id/enter_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/edittext_pw"/>
+</RelativeLayout>

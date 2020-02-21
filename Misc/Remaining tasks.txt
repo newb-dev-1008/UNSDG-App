@@ -1,0 +1,12 @@
+Asynctask
+
+To sign out
+
+private void signOut() {
+	mAuth.signOut();
+        updateUI(null);
+    }
+
+
+
+package com.google.firebase.quickstart.auth.java;

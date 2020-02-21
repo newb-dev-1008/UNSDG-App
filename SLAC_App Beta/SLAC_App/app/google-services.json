@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "286947545053",
+    "firebase_url": "https://aroh-app.firebaseio.com",
+    "project_id": "aroh-app",
+    "storage_bucket": "aroh-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286947545053:android:81fc99a7df2f4f96",
+        "android_client_info": {
+          "package_name": "com.example.unsdg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286947545053-a5hcm8vu0vpbnj9k9odv8d1dk115im39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unsdg",
+            "certificate_hash": "f7856ad393beeee8ba0065bddea3caccd89eb824"
+          }
+        },
+        {
+          "client_id": "286947545053-4pt5clt9pu222jj5ft57fmhtrhbj8jdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvPlYhawr_8DdWBzmNUYZVXAGgoyao6PQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286947545053-4pt5clt9pu222jj5ft57fmhtrhbj8jdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

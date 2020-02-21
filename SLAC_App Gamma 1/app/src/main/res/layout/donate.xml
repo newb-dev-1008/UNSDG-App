@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:layout_margin="8dp">
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/donation_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Choose your type of donation:"
+        android:textSize="30sp"
+        android:fontFamily="@font/righteous"
+        android:textColor="#000000"/>
+
+    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fundsid"
+        android:layout_width="171dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="28dp"
+
+        android:text="Funds"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/donation_text"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/clothesid"
+        android:layout_width="171dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="28dp"
+
+        android:text="Clothes"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/fundsid"
+        app:layout_constraintTop_toBottomOf="@+id/donation_text" />
+
+    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/foodid"
+        android:layout_width="171dp"
+        android:layout_height="78dp"
+
+        android:layout_marginTop="28dp"
+        android:text="Food"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fundsid" />
+
+    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/booksid"
+        android:layout_width="171dp"
+        android:layout_height="78dp"
+
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="28dp"
+        android:text="Books"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@+id/foodid"
+        app:layout_constraintTop_toBottomOf="@+id/clothesid" />
+</android.support.constraint.ConstraintLayout>
